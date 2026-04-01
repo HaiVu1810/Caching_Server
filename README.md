@@ -39,7 +39,7 @@ Run via package entry point (after install):
 caching-server --port 8000 --url https://dummyjson.com
 ```
 
-Or run directly:
+Or run directly if you not have pip:
 
 ```bash
 python caching_server.py --port 8000 --url https://dummyjson.com
