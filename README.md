@@ -30,9 +30,11 @@ python -m pip install fastapi uvicorn requests
 ```
 
 ## Usage
-
+Install entrypoint
+````
+pip install -e . 
+````
 Run via package entry point (after install):
-
 ```bash
 caching-server --port 8000 --url https://dummyjson.com
 ```
@@ -75,3 +77,5 @@ uvicorn Fetchinghandle:app --host localhost --port 8000 --reload
 ```
 
 Or through the app as above using `caching_server.py`.
+Inspired Project:
+https://roadmap.sh/projects/caching-server
